@@ -1,0 +1,2 @@
+# YaThaSone
+about distraction
