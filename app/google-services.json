@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "420783242957",
+    "firebase_url": "https://luyeechon-e35d7.firebaseio.com",
+    "project_id": "luyeechon-e35d7",
+    "storage_bucket": "luyeechon-e35d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420783242957:android:28b8113fb541a277",
+        "android_client_info": {
+          "package_name": "net.sandi.luyeechon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420783242957-eu1jild2bpah5h1ate2f05p1qskqrs4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.sandi.luyeechon",
+            "certificate_hash": "49294414F28FE8C4B7EDA61FF5AD857371222523"
+          }
+        },
+        {
+          "client_id": "420783242957-6vltganrin4qh21hm7n90e7rl65mdsou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAAuxTDAj4GrSRvK7X8i7MZ5LnXpW9NXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420783242957-6vltganrin4qh21hm7n90e7rl65mdsou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

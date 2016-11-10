@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_small"
+    card_view:cardElevation="@dimen/card_elevation"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="@color/cardview_light_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_medium">
+
+    <net.sandi.luyeechon.components.textviews.MMTextView
+        android:id="@+id/tv_health_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/health_title"
+        />
+
+    <ImageView
+        android:id="@+id/iv_health_photo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:adjustViewBounds="true"
+        android:src="@drawable/yathasone_placeholder"
+        />
+
+    <net.sandi.luyeechon.components.textviews.MMTextView
+        android:id="@+id/tv_health_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textColor="@color/secondary_text"
+        android:text="@string/health_des"
+        />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

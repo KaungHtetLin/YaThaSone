@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_tablet">false</bool>
+    <integer name="motivaor_list_grid">3</integer>
+    <integer name="health_list_grid">3</integer>
+    <integer name="joke_list_grid">3</integer>
+</resources>

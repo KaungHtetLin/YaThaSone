@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <net.sandi.luyeechon.components.textviews.MMTextView
+        android:id="@+id/txt_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:text="@string/txt_quiz_start"
+        android:textColor="@color/pure_black"
+        android:textSize="@dimen/text_heading_1x" />
+
+    <net.sandi.luyeechon.components.editexts.MMEditText
+        android:id="@+id/et_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_question"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:visibility="invisible"
+        android:hint="@string/et_hint" />
+
+    <net.sandi.luyeechon.components.textviews.MMTextView
+        android:id="@+id/txt_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_question"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:text="@string/txt_ans"
+        android:textColor="@color/red"
+        android:textSize="@dimen/text_heading_1x"
+        android:visibility="invisible" />
+
+    <net.sandi.luyeechon.components.textviews.MMTextView
+        android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_answer"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:text="@string/btn_show_ans"
+        android:textSize="@dimen/text_regular_3x"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/et_answer"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:visibility="invisible"
+        android:text="@string/btn_done" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_answer"
+        android:layout_margin="@dimen/margin_medium_2"
+        android:text="@string/btn_show"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_think"
+        android:layout_below="@id/btn_done"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/thinking_quiz" />
+
+
+</RelativeLayout>

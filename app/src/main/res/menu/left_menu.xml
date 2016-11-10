@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_sate_khon_arr"
+            android:checked="true"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/menu_motivator" />
+        <item
+            android:id="@+id/menu_short_jokes"
+            android:icon="@drawable/ic_insert_emoticon_black_24dp"
+            android:title="@string/menu_short_jokes" />
+        <item
+            android:id="@+id/menu_quiz"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="@string/quiz" />
+        <item
+            android:id="@+id/menu_health_topics"
+            android:icon="@drawable/ic_local_library_black_24dp1"
+            android:title="@string/menu_health_topics" />
+
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_fav_joke"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/txt_fav_joke" />
+
+        <item
+            android:id="@+id/menu_fav_health"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/txt_fav_health" />
+    </group>
+</menu>
